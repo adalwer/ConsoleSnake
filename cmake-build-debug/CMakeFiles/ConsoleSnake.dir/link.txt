@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ConsoleSnake.dir/main.cpp.o  -o ConsoleSnake 
