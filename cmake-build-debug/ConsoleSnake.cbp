@@ -84,10 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/adam/ConsoleSnake/headers/Point.h">
+		<Unit filename="/home/adam/ConsoleSnake/source/Point.cpp">
 			<Option target="ConsoleSnake"/>
 		</Unit>
-		<Unit filename="/home/adam/ConsoleSnake/source/Point.cpp">
+		<Unit filename="/home/adam/ConsoleSnake/source/Point.h">
+			<Option target="ConsoleSnake"/>
+		</Unit>
+		<Unit filename="/home/adam/ConsoleSnake/source/Snake.cpp">
+			<Option target="ConsoleSnake"/>
+		</Unit>
+		<Unit filename="/home/adam/ConsoleSnake/source/Snake.h">
 			<Option target="ConsoleSnake"/>
 		</Unit>
 		<Unit filename="/home/adam/ConsoleSnake/source/main.cpp">

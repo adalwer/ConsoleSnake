@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/adam/ConsoleSnake/headers/Point.h
-
 /home/adam/ConsoleSnake/source/Point.cpp
-../headers/Point.h
-/home/adam/ConsoleSnake/headers/Point.h
+Point.h
+/home/adam/ConsoleSnake/source/Point.h
+
+/home/adam/ConsoleSnake/source/Point.h
+
+/home/adam/ConsoleSnake/source/Snake.cpp
+Snake.h
+/home/adam/ConsoleSnake/source/Snake.h
+
+/home/adam/ConsoleSnake/source/Snake.h
 
 /home/adam/ConsoleSnake/source/main.cpp
 iostream
 -
-../headers/Point.h
-/home/adam/ConsoleSnake/headers/Point.h
+Point.h
+/home/adam/ConsoleSnake/source/Point.h
+Snake.h
+/home/adam/ConsoleSnake/source/Snake.h
 

@@ -150,6 +150,33 @@ source/Point.cpp.s:
 	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/Point.cpp.s
 .PHONY : source/Point.cpp.s
 
+source/Snake.o: source/Snake.cpp.o
+
+.PHONY : source/Snake.o
+
+# target to build an object file
+source/Snake.cpp.o:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/Snake.cpp.o
+.PHONY : source/Snake.cpp.o
+
+source/Snake.i: source/Snake.cpp.i
+
+.PHONY : source/Snake.i
+
+# target to preprocess a source file
+source/Snake.cpp.i:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/Snake.cpp.i
+.PHONY : source/Snake.cpp.i
+
+source/Snake.s: source/Snake.cpp.s
+
+.PHONY : source/Snake.s
+
+# target to generate assembly for a file
+source/Snake.cpp.s:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/Snake.cpp.s
+.PHONY : source/Snake.cpp.s
+
 source/main.o: source/main.cpp.o
 
 .PHONY : source/main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... source/Point.o"
 	@echo "... source/Point.i"
 	@echo "... source/Point.s"
+	@echo "... source/Snake.o"
+	@echo "... source/Snake.i"
+	@echo "... source/Snake.s"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"

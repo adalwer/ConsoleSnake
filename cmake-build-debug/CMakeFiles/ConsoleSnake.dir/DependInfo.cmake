@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/adam/ConsoleSnake/source/Point.cpp" "/home/adam/ConsoleSnake/cmake-build-debug/CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o"
+  "/home/adam/ConsoleSnake/source/Snake.cpp" "/home/adam/ConsoleSnake/cmake-build-debug/CMakeFiles/ConsoleSnake.dir/source/Snake.cpp.o"
   "/home/adam/ConsoleSnake/source/main.cpp" "/home/adam/ConsoleSnake/cmake-build-debug/CMakeFiles/ConsoleSnake.dir/source/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

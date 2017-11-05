@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ConsoleSnake.dir/source/main.cpp.o"
   "CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o"
+  "CMakeFiles/ConsoleSnake.dir/source/Snake.cpp.o"
   "ConsoleSnake.pdb"
   "ConsoleSnake"
 )
