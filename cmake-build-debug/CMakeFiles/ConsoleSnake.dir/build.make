@@ -57,41 +57,67 @@ include CMakeFiles/ConsoleSnake.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ConsoleSnake.dir/flags.make
 
-CMakeFiles/ConsoleSnake.dir/main.cpp.o: CMakeFiles/ConsoleSnake.dir/flags.make
-CMakeFiles/ConsoleSnake.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/ConsoleSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConsoleSnake.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConsoleSnake.dir/main.cpp.o -c /home/adam/ConsoleSnake/main.cpp
+CMakeFiles/ConsoleSnake.dir/source/main.cpp.o: CMakeFiles/ConsoleSnake.dir/flags.make
+CMakeFiles/ConsoleSnake.dir/source/main.cpp.o: ../source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/ConsoleSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConsoleSnake.dir/source/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConsoleSnake.dir/source/main.cpp.o -c /home/adam/ConsoleSnake/source/main.cpp
 
-CMakeFiles/ConsoleSnake.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConsoleSnake.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/ConsoleSnake/main.cpp > CMakeFiles/ConsoleSnake.dir/main.cpp.i
+CMakeFiles/ConsoleSnake.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConsoleSnake.dir/source/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/ConsoleSnake/source/main.cpp > CMakeFiles/ConsoleSnake.dir/source/main.cpp.i
 
-CMakeFiles/ConsoleSnake.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConsoleSnake.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/ConsoleSnake/main.cpp -o CMakeFiles/ConsoleSnake.dir/main.cpp.s
+CMakeFiles/ConsoleSnake.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConsoleSnake.dir/source/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/ConsoleSnake/source/main.cpp -o CMakeFiles/ConsoleSnake.dir/source/main.cpp.s
 
-CMakeFiles/ConsoleSnake.dir/main.cpp.o.requires:
+CMakeFiles/ConsoleSnake.dir/source/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/ConsoleSnake.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/ConsoleSnake.dir/source/main.cpp.o.requires
 
-CMakeFiles/ConsoleSnake.dir/main.cpp.o.provides: CMakeFiles/ConsoleSnake.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/ConsoleSnake.dir/main.cpp.o.provides
+CMakeFiles/ConsoleSnake.dir/source/main.cpp.o.provides: CMakeFiles/ConsoleSnake.dir/source/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/main.cpp.o.provides.build
+.PHONY : CMakeFiles/ConsoleSnake.dir/source/main.cpp.o.provides
 
-CMakeFiles/ConsoleSnake.dir/main.cpp.o.provides.build: CMakeFiles/ConsoleSnake.dir/main.cpp.o
+CMakeFiles/ConsoleSnake.dir/source/main.cpp.o.provides.build: CMakeFiles/ConsoleSnake.dir/source/main.cpp.o
+
+
+CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o: CMakeFiles/ConsoleSnake.dir/flags.make
+CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o: ../source/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/ConsoleSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o -c /home/adam/ConsoleSnake/source/Point.cpp
+
+CMakeFiles/ConsoleSnake.dir/source/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConsoleSnake.dir/source/Point.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/ConsoleSnake/source/Point.cpp > CMakeFiles/ConsoleSnake.dir/source/Point.cpp.i
+
+CMakeFiles/ConsoleSnake.dir/source/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConsoleSnake.dir/source/Point.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/ConsoleSnake/source/Point.cpp -o CMakeFiles/ConsoleSnake.dir/source/Point.cpp.s
+
+CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o.requires:
+
+.PHONY : CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o.requires
+
+CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o.provides: CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o.provides.build
+.PHONY : CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o.provides
+
+CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o.provides.build: CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o
 
 
 # Object files for target ConsoleSnake
 ConsoleSnake_OBJECTS = \
-"CMakeFiles/ConsoleSnake.dir/main.cpp.o"
+"CMakeFiles/ConsoleSnake.dir/source/main.cpp.o" \
+"CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o"
 
 # External object files for target ConsoleSnake
 ConsoleSnake_EXTERNAL_OBJECTS =
 
-ConsoleSnake: CMakeFiles/ConsoleSnake.dir/main.cpp.o
+ConsoleSnake: CMakeFiles/ConsoleSnake.dir/source/main.cpp.o
+ConsoleSnake: CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o
 ConsoleSnake: CMakeFiles/ConsoleSnake.dir/build.make
 ConsoleSnake: CMakeFiles/ConsoleSnake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/ConsoleSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ConsoleSnake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/ConsoleSnake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ConsoleSnake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConsoleSnake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/ConsoleSnake.dir/build: ConsoleSnake
 
 .PHONY : CMakeFiles/ConsoleSnake.dir/build
 
-CMakeFiles/ConsoleSnake.dir/requires: CMakeFiles/ConsoleSnake.dir/main.cpp.o.requires
+CMakeFiles/ConsoleSnake.dir/requires: CMakeFiles/ConsoleSnake.dir/source/main.cpp.o.requires
+CMakeFiles/ConsoleSnake.dir/requires: CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o.requires
 
 .PHONY : CMakeFiles/ConsoleSnake.dir/requires
 

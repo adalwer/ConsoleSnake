@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adam/ConsoleSnake/headers/Point.h
+
+/home/adam/ConsoleSnake/source/Point.cpp
+../headers/Point.h
+/home/adam/ConsoleSnake/headers/Point.h
+
+/home/adam/ConsoleSnake/source/main.cpp
+iostream
+-
+../headers/Point.h
+/home/adam/ConsoleSnake/headers/Point.h
+

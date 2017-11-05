@@ -123,32 +123,59 @@ ConsoleSnake/fast:
 	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/build
 .PHONY : ConsoleSnake/fast
 
-main.o: main.cpp.o
+source/Point.o: source/Point.cpp.o
 
-.PHONY : main.o
+.PHONY : source/Point.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/main.cpp.o
-.PHONY : main.cpp.o
+source/Point.cpp.o:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o
+.PHONY : source/Point.cpp.o
 
-main.i: main.cpp.i
+source/Point.i: source/Point.cpp.i
 
-.PHONY : main.i
+.PHONY : source/Point.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/main.cpp.i
-.PHONY : main.cpp.i
+source/Point.cpp.i:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/Point.cpp.i
+.PHONY : source/Point.cpp.i
 
-main.s: main.cpp.s
+source/Point.s: source/Point.cpp.s
 
-.PHONY : main.s
+.PHONY : source/Point.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/main.cpp.s
-.PHONY : main.cpp.s
+source/Point.cpp.s:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/Point.cpp.s
+.PHONY : source/Point.cpp.s
+
+source/main.o: source/main.cpp.o
+
+.PHONY : source/main.o
+
+# target to build an object file
+source/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/main.cpp.o
+.PHONY : source/main.cpp.o
+
+source/main.i: source/main.cpp.i
+
+.PHONY : source/main.i
+
+# target to preprocess a source file
+source/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/main.cpp.i
+.PHONY : source/main.cpp.i
+
+source/main.s: source/main.cpp.s
+
+.PHONY : source/main.s
+
+# target to generate assembly for a file
+source/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/source/main.cpp.s
+.PHONY : source/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ConsoleSnake"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... source/Point.o"
+	@echo "... source/Point.i"
+	@echo "... source/Point.s"
+	@echo "... source/main.o"
+	@echo "... source/main.i"
+	@echo "... source/main.s"
 .PHONY : help
 
 

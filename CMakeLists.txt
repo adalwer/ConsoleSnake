@@ -3,5 +3,7 @@ project(ConsoleSnake)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
-add_executable(ConsoleSnake ${SOURCE_FILES})
+set(Sources source/main.cpp source/Point.cpp)
+set(Headers headers/Point.h)
+
+add_executable(ConsoleSnake ${Sources} ${Headers})

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/ConsoleSnake.dir/main.cpp.o  -o ConsoleSnake 
+/usr/bin/c++  -g   CMakeFiles/ConsoleSnake.dir/source/main.cpp.o CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o  -o ConsoleSnake 
