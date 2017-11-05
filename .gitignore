@@ -36,4 +36,4 @@
 !*.cpp
 !*.h
 
-CMakeLists.txt
+!cmake-build-debug/*
