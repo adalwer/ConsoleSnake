@@ -14,6 +14,8 @@ public:
     Point (int x, int y);
 
     bool operator ()(const Point &a, const Point &b);
+
+    bool operator== (const Point &a);
 };
 
 

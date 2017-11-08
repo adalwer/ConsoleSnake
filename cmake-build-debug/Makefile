@@ -123,6 +123,33 @@ ConsoleSnake/fast:
 	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/build
 .PHONY : ConsoleSnake/fast
 
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/ConsoleSnake.dir/build.make CMakeFiles/ConsoleSnake.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 source/Point.o: source/Point.cpp.o
 
 .PHONY : source/Point.o
@@ -213,6 +240,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ConsoleSnake"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
 	@echo "... source/Point.o"
 	@echo "... source/Point.i"
 	@echo "... source/Point.s"

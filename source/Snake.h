@@ -26,6 +26,8 @@ public:
     const static int LEFT = 3;
     const static int RIGHT = 4;
 
+    Snake () {}
+
     Snake (int x, int y, int start_direction);
 
     void change_direction (int new_direction);

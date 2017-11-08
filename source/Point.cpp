@@ -14,3 +14,7 @@ bool Point::operator()(const Point &a, const Point &b) {
     else
         return a.x < b.x;
 }
+
+bool Point::operator==(const Point &a) {
+    return a.x == this->x && a.y == this->y;
+}
