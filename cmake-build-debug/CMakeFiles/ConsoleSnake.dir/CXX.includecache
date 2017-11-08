@@ -17,6 +17,14 @@ Snake.h
 /home/adam/ConsoleSnake/source/Snake.h
 
 /home/adam/ConsoleSnake/source/Snake.h
+deque
+-
+set
+-
+iostream
+-
+Point.h
+/home/adam/ConsoleSnake/source/Point.h
 
 /home/adam/ConsoleSnake/source/main.cpp
 iostream

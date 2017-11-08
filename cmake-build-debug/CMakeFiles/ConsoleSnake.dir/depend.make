@@ -4,6 +4,7 @@
 CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o: ../source/Point.cpp
 CMakeFiles/ConsoleSnake.dir/source/Point.cpp.o: ../source/Point.h
 
+CMakeFiles/ConsoleSnake.dir/source/Snake.cpp.o: ../source/Point.h
 CMakeFiles/ConsoleSnake.dir/source/Snake.cpp.o: ../source/Snake.cpp
 CMakeFiles/ConsoleSnake.dir/source/Snake.cpp.o: ../source/Snake.h
 

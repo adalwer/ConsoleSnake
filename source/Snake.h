@@ -22,11 +22,11 @@ private:
 public:
 
     const static int UP = 1;
-    const static int DOWN = 1;
-    const static int LEFT = 1;
-    const static int RIGHT = 1;
+    const static int DOWN = 2;
+    const static int LEFT = 3;
+    const static int RIGHT = 4;
 
-    Snake (int x, int y);
+    Snake (int x, int y, int start_direction);
 
     void change_direction (int new_direction);
     void move (bool add);
@@ -34,6 +34,10 @@ public:
     Point get_next_head_position ();
     Point get_head ();
     Point get_tail ();
+
+    std::deque<Point> get_parts_list() {
+        return parts_list;
+    }
 
     bool is_in_snake(int x, int y);
     bool is_in_snake(Point p);

@@ -4,9 +4,13 @@
 
 #include "Snake.h"
 
-Snake::Snake (int x, int y) {
+Snake::Snake (int x, int y, int start_direction) {
     Point temp (x, y);
     snake_parts.insert (temp);
+    parts_list.push_front(temp);
+    change_direction(start_direction);
+    head = temp;
+    tail = temp;
 }
 
 void Snake::change_direction (int new_direction) {
@@ -21,7 +25,7 @@ void Snake::move (bool add) {
     snake_parts.insert(head);
     parts_list.push_front(head);
     if (!add) {
-        snake_parts.erase (snake_parts.find (tail));
+        snake_parts.erase(snake_parts.find(tail));
         parts_list.pop_back();
     }
     tail = *(--parts_list.end ());
@@ -35,7 +39,7 @@ Point Snake::get_next_head_position () {
     else if (direction == RIGHT)
         return {head.x + 1, head.y};
     else
-        return {head.x + 1, head.y};
+        return {head.x - 1, head.y};
 }
 
 Point Snake::get_head () {
@@ -53,5 +57,6 @@ bool Snake::is_in_snake(int x, int y) {
 bool Snake::is_in_snake (Point p) {
     return is_in_snake (p.x, p.y);
 }
+
 
 
